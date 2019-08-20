@@ -20,9 +20,8 @@ A COSC65 math parser project based on the Pratt Parser.
 
 To further understand the terminologies used in this project, here is a sample BNF grammar:
 
-Nonterminal/LHS					Terminal/RHS
-
 ```
+Nonterminal/LHS			Terminal/RHS
 <expr>       -> <expr> + <term> | <expr> - <term> | <term>
 <term>       -> <term> * <factor> | <term> / <factor> | <factor>
 <factor>     -> ( expr ) | <identifier> | <number>
@@ -32,9 +31,9 @@ Nonterminal/LHS					Terminal/RHS
 <letter>     -> a | b | c | ... | z
 ```
 
-LHS (left-hand side) - are nonterminals
-RHS (right-hand side) - a string of terminals and/or nonterminals
-Nonterminal - enclosed in angle brackets (e.g., <expr>, <term>, etc.)
-Terminal - a lexeme or token
-Lexeme - lowest level syntactic unit of a language (e.g., +, -, *, /, 1, 2, 3, a, b, c, etc.)
+LHS (left-hand side) - are nonterminals\
+RHS (right-hand side) - a string of terminals and/or nonterminals\
+Nonterminal - enclosed in angle brackets (e.g., \<expr\>, \<term\>, etc.)\
+Terminal - a lexeme or token\
+Lexeme - lowest level syntactic unit of a language (e.g., +, -, *, /, 1, 2, 3, a, b, c, etc.)\
 Token - category of lexemes (e.g., keyword, identifier, operator, delimiter)
