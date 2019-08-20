@@ -22,6 +22,7 @@ To further understand the terminologies used in this project, here is a sample B
 
 Nonterminal/LHS					Terminal/RHS
 
+```
 <expr>       -> <expr> + <term> | <expr> - <term> | <term>
 <term>       -> <term> * <factor> | <term> / <factor> | <factor>
 <factor>     -> ( expr ) | <identifier> | <number>
@@ -29,6 +30,7 @@ Nonterminal/LHS					Terminal/RHS
 <number>     -> <digit> | <number><digit>
 <digit>      -> 0 | 1 | 2 | ... | 9
 <letter>     -> a | b | c | ... | z
+```
 
 LHS (left-hand side) - are nonterminals
 RHS (right-hand side) - a string of terminals and/or nonterminals
