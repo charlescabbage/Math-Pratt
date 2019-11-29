@@ -1,7 +1,7 @@
 # Math-Pratt
 A COSC65 math parser project based on the Pratt Parser.
 
-## How it works:
+## How it works
 1. User is prompted to input 1 or more expressions. To input more than 1 expression,
    separate expressions with a ';' (e.g., 1+1; 2+2). You may optionally add a ';' on
    the last expression.
